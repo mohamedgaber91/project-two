@@ -206,23 +206,21 @@ body{
     }
     .sercontent{
         display: grid;
-        grid-template-columns:repeat(auto-fill , minmax(460px,1fr));
+        text-align: center;
+        grid-template-rows: repeat(auto-fill , minmax(450px,1fr));
     }
+
+
     .services .sercontent .ser1 ,.services .sercontent .ser2 ,.services .sercontent .ser3 ,.services .sercontent .ser4 {
         margin: 20px;
     }
     .services .sercontent .ser1 img,.services .sercontent .ser2 img,.services .sercontent .ser3 img,.services .sercontent .ser4 img{
-        margin-left: 0;
+       
         width: 80px;
-        margin-bottom: px;
-        margin-right: 25px;
-        transform: translateY(25px);
+        transform: translate(10%, 4px);
         
     }
     .services .sercontent  h3{
-        margin-left: 0;
-        margin-top: 0px;
-        display: inline;
         font-size: 30px;
         color: var(--maincolor-color);
     }
@@ -238,7 +236,7 @@ body{
         display: grid;
         grid-template-rows: 30% 70%;
         height: 800px;
-        margin-top: 1500px;
+        margin-top: 1054px;
     }
     .show::before{
         content: "";
