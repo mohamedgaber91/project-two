@@ -1536,7 +1536,7 @@ body{
     /*start about*/
     .about{
         position: relative;
-        margin-top: -250px;
+        margin-top: -168px;
     
     }
     .about h2{
@@ -1584,6 +1584,9 @@ body{
         margin-bottom: 0px;
         height: 350px;
         width: 70%;
+    }
+    .about .abocontent .sora img{
+        width: 150%;
     }
     .about .abocontent .bigdiv{
         position: absolute;
@@ -1667,7 +1670,7 @@ body{
     }
     .skilcontent .testimonials hr,.skilcontent .skills hr{
         direction: ltr;
-        width: 370px;
+        width: 308px;
         margin-left: 30%;
     }
     .skilcontent .testimonials .testi1 p ,.skilcontent .testimonials .testi2 p{
