@@ -5,6 +5,7 @@
 body{
     
     margin: 0px;
+    overflow-x: hidden;
  }  
 :root{
     --maincolor-color:rgb(0 199 252)
