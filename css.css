@@ -15,11 +15,13 @@ body{
 {  
    body{
        width: 1500px;
+       overflow-x: hidden;
    }
     .parent{
         margin: 0px;
         padding: 0px;
         height: 1000vh;
+        overflow-x: hidden;
     }
     .parent .content1::after{
         content: "";
